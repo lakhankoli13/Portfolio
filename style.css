@@ -1,0 +1,506 @@
+
+
+.navbar-brand
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #dbd8e6 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #000000;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+     
+}
+
+.copy
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #dbd8e6 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #000000;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+    
+}
+
+
+
+.notification{
+    border-radius: 50%;
+    border-color: #fa1919;
+    font-size: 32px;
+    
+   text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #dbd8e6 0%,
+     #44107a 29%,
+     #ff1361 67%,
+     #fff800 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #000000;
+   background-clip: text;
+   
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 1s linear infinite;
+   display: inline-block;
+       font-size: px;
+
+}
+.notification:hover{
+    opacity: 0.7;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.checked {
+    color: orange;
+}
+
+.skill {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+
+}
+
+.skills {
+
+
+    margin: 0;
+    color: #13191a;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.skill a {
+    position: relative;
+    display: inline-block;
+
+    margin: 0;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+
+}
+
+.skill a:nth-child(1) {
+    filter: hue-rotate(270deg);
+}
+
+.skill a:nth-child(2) {
+    filter: hue-rotate(110deg);
+}
+
+.skill a span {
+    position: absolute;
+    display: block;
+}
+
+.skill a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.skill a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.skill a span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+
+.skill a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+@import "compass/css3";
+
+/*
+	A. Mini Reset 
+*/
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+::before,
+::after {
+	content: "";
+}
+
+html {
+	font-size: 100%;
+}
+
+ 
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: #000203;
+	text-decoration: none;
+}
+
+.btn {
+	display: inline-block;
+	text-transform: uppercase;
+	border: 2px solid #2c3e50;
+	margin-top: 100px; 
+	font-size: 0.7em;
+	font-weight: 700;
+	padding: 0.1em 0.4em;
+	text-align: center;
+	-webkit-transition: color 0.3s, border-color 0.3s;
+	-moz-transition: color 0.3s, border-color 0.3s;
+	transition: color 0.3s, border-color 0.3s;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+container-footer {
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content1 {
+    position: relative;
+    margin: 130px auto;
+    text-align: center;
+    padding: 0 20px;
+    font-size: large;
+    
+}
+
+.content1 .text {
+    font-size: large;
+
+
+}
+
+.content1 .p {
+    font-size: large;
+
+    color: transparent;
+}
+
+footer {
+    position: footer;
+    bottom: 0px;
+    width: 100%;
+    background: transparent;
+   
+}
+
+.main-content {
+    display: flex;
+    font-size: larger;
+    background-repeat: no-repeat;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+    font-size: larger;
+}
+
+.box h2 {
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+    font-size: larger;
+}
+
+.box .content:before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+    font-size: larger;
+}
+
+.box .content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #da53a6;
+    top: -10px;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.center .content .text {
+    font-size: large;
+
+    padding-left: 10px;
+}
+
+.center .content .phone {
+    margin: 15px 0;
+}
+
+.right form .text {
+    font-size: large;
+    margin-bottom: 2px;
+
+}
+
+.right form .msg {
+    margin-top: 10px;
+}
+
+.right form input,
+.right form textarea {
+    width: 100%;
+    font-size: large;
+    background: transparent;
+    padding-left: 10px;
+    border: 1px solid;
+}
+
+.right form input:focus,
+.right form textarea:focus {
+    outline-color: #3498db;
+}
+
+.right form input {
+    height: 35px;
+}
+
+.right form .btn {
+    margin-top: 10px;
+}
+
+.right form .btn button {
+    height: 47px;
+    width: 200%;
+    border: none;
+    outline: none;
+    font-size: -7.9375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 30px 50px;
+    background-color: turquoise;
+}
+
+
+
+.bottom center {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+}
+
+.bottom center a:hover {
+    text-decoration: double;
+}
+
+/* footer social css  */
+.fa {
+    padding: 16px;
+    font-size: 30px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+
+.fa-twitter {
+  
+    color: rgb(26, 144, 253);
+}
+
+
+.fa-google {
+    
+    color: rgb(240, 24, 24);
+}
+
+
+.fa-linkedin {
+    
+    color: rgb(45, 101, 255);
+}
+
+
+.fa-instagram {
+   
+    color: rgb(240, 21, 21);
+
+}
+
+}
+.google_translate_element{
+    
+    float: left;
+}
+
+
+.passwordimg{
+filter: blur(23px);
+
+
+}
+
+
+.password {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 344%);
+    font-size: large;
+}
+.passwordbutton{
+    height: 30px;
+    width: 30%;
+    border: none;
+    outline: none;
+    font-size: -7.9375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 30px 70px;
+    background-color: turquoise;
+
+}
